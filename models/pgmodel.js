@@ -50,5 +50,6 @@ async function checkEmail(i_email){
     console.log(result);
     return(result==[]);
 }
+// hello world!
 
 module.exports = {startDatabase, createPg, checkEmail, searchResult};
